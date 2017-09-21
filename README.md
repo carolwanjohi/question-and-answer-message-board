@@ -7,7 +7,7 @@
 ## Description
 **--Help** is a web application that enables users to post questions and give answers to posted questions. The user can also edit a question that they have posted. 
 
-## How GitHub User Lookup Works
+## How --Help Works
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
 | Header visible in all pages of the web app and directs you back to the homepage | N/A | Header with link to Homepage and Name of web app  |
