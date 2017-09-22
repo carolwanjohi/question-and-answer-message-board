@@ -20,11 +20,11 @@
                 {{textarea rows="3" class="form-control" value=contentQuestion id="contentQuestion" placeholder=question.contentQuestion}}
             </div>
 
-            <button class="btn btn-success" {{action 'edit' question}}>Edit Your Question</button>
+            <button class="btn btn-info" {{action 'edit' question}}>Edit Your Question</button>
 
         </form>
 
     </div>
 {{else}}
-    <button class="btn btn-success" {{action 'showEditForm'}}>Edit</button>
+    <button class="btn btn-info" {{action 'showEditForm'}}>Edit Your Question</button>
 {{/if}}

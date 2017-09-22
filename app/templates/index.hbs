@@ -1,9 +1,17 @@
 <p>Welcome to <span class="help">--Help</span> where you can ask a question and receive an answer</p>
 
 <ul class="list-unstyled">
-    {{#each model as |question|}}
+    {{#each model.questions as |question|}}
+        {{!-- Render the question tile component --}}
         {{question-tile question=question}}
     {{/each}}
 </ul>
 
+{{!-- Render the new question component --}}
 {{new-question saveQuestion="saveQuestion"}}
+
+
+
+
+
+
