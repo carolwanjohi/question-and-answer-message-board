@@ -1,2 +1,7 @@
-<h2>{{model.questionTitle}}</h2>
+<h2>{{model.questionTitle}} by {{model.authorQuestion}}</h2>
+
+<p>{{model.contentQuestion}}</p>
+
+{{!-- Rendering the edit-question component --}}
+{{edit-question question=model edit="edit"}}
 
