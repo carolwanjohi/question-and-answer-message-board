@@ -1,0 +1,30 @@
+{{#if editQuestionForm}}
+    <h2>Edit {{question.questionTitle}}</h2>
+
+    <div>
+
+        <form>
+
+            <div class="form-group">
+                <label for="authorQuestion">Enter your name or username</label>
+                {{input class="form-control" value=authorQuestion id="authorQuestion" placeholder=question.authorQuestion}}
+            </div>
+
+            <div class="form-group">
+                <label for="questionTitle">Enter the question</label>
+                {{input class="form-control" value=questionTitle id="questionTitle" placeholder=question.questionTitle}}
+            </div>
+
+            <div class="form-group">
+                <label for="contentQuestion">Enter details about the question</label>
+                {{textarea rows="3" class="form-control" value=contentQuestion id="contentQuestion" placeholder=question.contentQuestion}}
+            </div>
+
+            <button class="btn btn-success" {{action 'edit' question}}>Edit Your Question</button>
+
+        </form>
+
+    </div>
+{{else}}
+    <button class="btn btn-success" {{action 'showEditForm'}}>Edit</button>
+{{/if}}
