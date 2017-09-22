@@ -1,6 +1,14 @@
 <div class="well">
-    <li>{{question.questionTitle}} 
-        <br>
-        by {{question.authorQuestion}}
-    </li>
+
+    {{!-- Link a question to page containing additional information --}}
+    {{#link-to 'question' question.id}}
+
+        {{!-- Display Question and Author --}}
+        <li>{{question.questionTitle}} 
+            <br>
+            by {{question.authorQuestion}}
+        </li>
+
+    {{/link-to}}
+
 </div>
