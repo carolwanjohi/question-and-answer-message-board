@@ -1,0 +1,9 @@
+<p>Welcome to <span class="help">--Help</span> where you can ask a question and receive an answer</p>
+
+<ul>
+    {{#each model as |question|}}
+        <li>{{question.questionTitle}}</li>
+    {{/each}}
+</ul>
+
+{{outlet}}
