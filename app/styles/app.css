@@ -1,0 +1,116 @@
+/*Style Application Template*/
+
+/*Style Header*/
+.jumbotron {
+    background-color: #17202A;
+    color: #7FFF00;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.siteName {
+    color: #7FFF00;
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+}
+
+.siteName:link {
+    color: #7FFF00; 
+    text-decoration: none;
+}
+
+.siteName:visited {
+    color: #7FFF00; 
+    text-decoration: none;
+}
+
+.siteName:hover {
+    color: #7FFF00; 
+}
+
+.siteName:active {
+    color: #7FFF00; 
+}
+
+p.slogan {
+    font-size: 3em;
+}
+
+.homeLink {
+    font-size: 4em;
+}
+
+.homeLink:hover {
+    color: #337ab7;
+}
+
+/*Animate underscore in Application Template*/
+
+.underscore {
+    color: #7FFF00; 
+    position: relative;
+    font-size: 1.5em;
+    /* Chrome and Safari*/
+    -webkit-animation-name: blink-animation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    /*Firefox*/
+    -moz-animation-name: blink-animation;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    /*Opera*/
+    -o-animation-name: blink-animation;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count: infinite;
+    animation-name: blink-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+/*Chrome and Safari*/
+
+@-webkit-keyframes blink-animation {
+    from, to { 
+        color: transparent 
+    }
+    50% {
+        color: #7FFF00; 
+    }
+}
+
+
+/*Fifefox*/
+
+@-moz-keyframes blink-animation {
+    from, to { 
+        color: transparent 
+    }
+    50% {
+        color: #7FFF00; 
+    }
+}
+
+
+/*Opera*/
+
+@-o-keyframes blink-animation {
+    from, to { 
+        color: transparent 
+    }
+    50% {
+        color: #7FFF00; 
+    }
+}
+
+/*Styel Footer*/
+footer {
+    background-color: #17202A;
+    color: #7FFF00;
+    text-align: center;
+    /*font-size: 1em;  */
+}
+
+.copyright {
+    font-size: 1.6em; 
+    font-family: 'Cutive Mono', monospace;
+}

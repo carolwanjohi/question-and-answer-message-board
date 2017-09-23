@@ -2,11 +2,11 @@
 
     <header class="jumbotron">
 
-        <h1>{{#link-to 'index'}}--help{{/link-to}}</h1>
+        <h1>{{#link-to 'index' class="siteName"}}--help<span class="underscore">_</span> {{/link-to}}</h1>
 
-        <p>Ask You Shall Be Answered</p>
+        <p class="slogan">Ask And You Shall Be Answered</p>
         
-        {{#link-to 'index'}}Home{{/link-to}}
+        {{#link-to 'index' class="homeLink"}}Home{{/link-to}}
 
     </header>
 
@@ -15,6 +15,7 @@
     <hr>
 
     <footer>
-        <p>2017 --help </p>
+        <small>
+        <span class="copyright"> &copy; 2017 </span>{{#link-to 'index' class="siteName"}}--help<span class="underscore">_</span> {{/link-to}}</small>
     </footer>
 </div>
