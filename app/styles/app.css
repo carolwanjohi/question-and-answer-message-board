@@ -125,7 +125,7 @@ footer {
 
 .listOfQuestions {
     font-size: 1.5em; 
-    font-family: 'Cutive Mono', monospace;   
+    font-family: 'Cutive Mono', monospace;  
 }
 
 .newQuestion{
@@ -149,6 +149,10 @@ footer {
 .addQuestion {
     font-size: 1.5em; 
     font-family: 'Cutive Mono', monospace;
+}
+
+.listOfQuestionsTile {
+    background-color: #FDFEFE;     
 }
 
 
