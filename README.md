@@ -5,7 +5,7 @@
 ## By **[Carol Wanjohi](https://github.com/carolwanjohi)**
 
 ## Description
-**--help** is a web application that enables users to post questions and give answers to posted questions. The user can also edit a question that they have posted. 
+[**--help**](https://help-message-board.firebaseapp.com/) is a web application that enables users to post questions and give answers to posted questions. The user can also edit a question that they have posted. 
 
 ## How --help Works
 | Behavior        | Input           | Outcome  |
@@ -62,7 +62,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* To deploy on  **Firebase** you need to install **Firebase CLI**. Click [this link to Firebase CLI Reference](https://firebase.google.com/docs/cli/) and follow the set up and deployment instructions. </br>
+  or
+* Deploy on **Heroku**. Click [ths link to Heoku Deployment](https://devcenter.heroku.com/categories/deployment), select one of the options listed and follow the set up and deployment instructions.
 
 ## Further Reading / Useful Links
 
