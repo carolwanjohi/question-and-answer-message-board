@@ -1,6 +1,9 @@
 {{#if addNewQuestion}}
+
     <h2 class="newQuestionHeader">Add a New Question</h2>
+
     <div class="newQuestion">
+        
         <form class="newQuestion">
 
             <div class="form-group">
@@ -23,5 +26,5 @@
         </form>
     </div>
 {{else}}
-    <button class="btn btn-success addQuestion" {{action 'showQuestionForm'}}>Add a question</button>
+    <button class="btn btn-success addQuestionButton" {{action 'showQuestionForm'}}>Add a question</button>
 {{/if}}

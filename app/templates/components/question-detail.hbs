@@ -1,8 +1,8 @@
-<p>{{question.contentQuestion}}</p>
+<p class="questionDetail">{{question.contentQuestion}}</p>
 
-<h2> Answers </h2>
+<h2 class="answersHeader"> Answers </h2>
 
-<ul>
+<ul class="listOfAnswers">
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}

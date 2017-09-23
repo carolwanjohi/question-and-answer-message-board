@@ -128,33 +128,55 @@ footer {
     font-family: 'Cutive Mono', monospace;  
 }
 
-.newQuestion{
-    font-size: 1.5em; 
-    font-family: 'Cutive Mono', monospace;     
-}
-
-.newQuestionHeader{
-    font-size: 2.75em;
-    font-family: 'Cutive Mono', monospace; 
-}
-
-.newQuestion input, #contentQuestion {
-    font-size: 0.75em;
-}
-
-.newQuestion button {
-    font-size: 0.75em;
-}
-
-.addQuestion {
-    font-size: 1.5em; 
-    font-family: 'Cutive Mono', monospace;
-}
-
 .listOfQuestionsTile {
     background-color: #FDFEFE;     
 }
 
+/*Style the forms in the New Question Component, Edit Question Component and New Answer Component*/
+
+.newQuestionHeader, .editQuestionHeader, .answerQuestionHeader{
+    font-size: 2.75em;
+    font-family: 'Cutive Mono', monospace; 
+}
+
+.newQuestion, .editQuestion, .answerQuestion{
+    font-size: 1.5em; 
+    font-family: 'Cutive Mono', monospace;     
+}
+
+.newQuestion input, .editQuestion input, .answerQuestion input, #contentQuestion, #contentAnswer {
+    font-size: 0.75em;
+}
+
+.newQuestion button, .editQuestion button, .answerQuestion button{
+    font-size: 0.75em;
+}
+
+.addQuestionButton, .editQuestionButton, .answerQuestionButton {
+    font-size: 1.5em; 
+    font-family: 'Cutive Mono', monospace;
+}
+
+/*Style the Question Template*/
+.questionPageHeader, .answersHeader {
+    font-size: 2.75em;
+    font-family: 'Cutive Mono', monospace;    
+}
+
+.questionDetail {
+    font-size: 1.5em;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.listOfAnswers {
+    font-size: 1.40em;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.editQuestionButton, .answerQuestionButton {
+    margin-top: 1em;
+    margin-bottom: 1.75em;
+}
 
 
 
