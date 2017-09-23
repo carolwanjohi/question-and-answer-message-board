@@ -1,6 +1,6 @@
-<p>Welcome to <span class="help"> --help </span> where you can ask a question and receive an answer</p>
+<p class="welcomeMessage">Welcome to <span class="help">--help<span class="underscore">_</span> </span> where you can ask a question and receive an answer</p>
 
-<ul class="list-unstyled">
+<ul class="list-unstyled listOfQuestions">
     {{#each model.questions as |question|}}
         {{!-- Render the question tile component --}}
         {{question-tile question=question}}

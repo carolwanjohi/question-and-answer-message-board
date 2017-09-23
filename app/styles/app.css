@@ -13,21 +13,21 @@
     font-size: 2em;
 }
 
-.siteName:link {
+.siteName:link, .help:link {
     color: #7FFF00; 
     text-decoration: none;
 }
 
-.siteName:visited {
+.siteName:visited, .help:visited {
     color: #7FFF00; 
     text-decoration: none;
 }
 
-.siteName:hover {
+.siteName:hover, .help:hover {
     color: #7FFF00; 
 }
 
-.siteName:active {
+.siteName:active .help:active {
     color: #7FFF00; 
 }
 
@@ -66,7 +66,6 @@ p.slogan {
     animation-iteration-count: infinite;
 }
 
-
 /*Chrome and Safari*/
 
 @-webkit-keyframes blink-animation {
@@ -78,7 +77,6 @@ p.slogan {
     }
 }
 
-
 /*Fifefox*/
 
 @-moz-keyframes blink-animation {
@@ -89,7 +87,6 @@ p.slogan {
         color: #7FFF00; 
     }
 }
-
 
 /*Opera*/
 
@@ -107,10 +104,54 @@ footer {
     background-color: #17202A;
     color: #7FFF00;
     text-align: center;
-    /*font-size: 1em;  */
 }
 
 .copyright {
     font-size: 1.6em; 
     font-family: 'Cutive Mono', monospace;
 }
+
+/*Style the Index Template*/
+.welcomeMessage {
+    font-size: 2em; 
+    font-family: 'Cutive Mono', monospace;
+}
+
+.help{
+    color: #7FFF00;
+    font-family: 'VT323', monospace;
+    font-size: 1.25em;  
+}
+
+.listOfQuestions {
+    font-size: 1.5em; 
+    font-family: 'Cutive Mono', monospace;   
+}
+
+.newQuestion{
+    font-size: 1.5em; 
+    font-family: 'Cutive Mono', monospace;     
+}
+
+.newQuestionHeader{
+    font-size: 2.75em;
+    font-family: 'Cutive Mono', monospace; 
+}
+
+.newQuestion input, #contentQuestion {
+    font-size: 0.75em;
+}
+
+.newQuestion button {
+    font-size: 0.75em;
+}
+
+.addQuestion {
+    font-size: 1.5em; 
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+
+
+
