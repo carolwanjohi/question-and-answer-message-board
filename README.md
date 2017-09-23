@@ -1,6 +1,6 @@
 # --help
 
-## This is a web application that enables users to post questions and give answers to posted questions., 22/09/2017
+## This is a web application that enables users to post questions and give answers to posted questions, 22/09/2017
 
 ## By **[Carol Wanjohi](https://github.com/carolwanjohi)**
 
@@ -64,7 +64,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * To deploy on  **Firebase** you need to install **Firebase CLI**. Click [this link to Firebase CLI Reference](https://firebase.google.com/docs/cli/) and follow the set up and deployment instructions. </br>
   or
-* Deploy on **Heroku**. Click [ths link to Heoku Deployment](https://devcenter.heroku.com/categories/deployment), select one of the options listed and follow the set up and deployment instructions.
+* Deploy on **Heroku**. Click [this link to Heoku Deployment](https://devcenter.heroku.com/categories/deployment), select one of the options listed and follow the set up and deployment instructions.
 
 ## Further Reading / Useful Links
 
