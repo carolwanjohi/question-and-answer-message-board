@@ -13,9 +13,9 @@ export default Ember.Component.extend({
         saveQuestion() {
             // Get the user input and store them
             var params = {
-                authorQuestion: this.get('authorQuestion') ? this.get('authorQuestion') : "",
-                questionTitle: this.get('questionTitle') ? this.get('questionTitle') : "",
-                contentQuestion: this.get('contentQuestion') ? this.get('contentQuestion') : "",
+                authorQuestion: this.get('authorQuestion') ? this.get('authorQuestion') : "Author Has No Name",
+                questionTitle: this.get('questionTitle') ? this.get('questionTitle') : "No Question Provided",
+                contentQuestion: this.get('contentQuestion') ? this.get('contentQuestion') : "No Further Detials Provided",
             };
             // Hide the form
             this.set('addNewQuestion', false);
