@@ -19,6 +19,9 @@ export default Ember.Component.extend({
             };
             // Hide the form
             this.set('addNewQuestion', false);
+            this.set('authorQuestion', '');
+            this.set('questionTitle', '');
+            this.set('contentQuestion', '');
 
             // Send action to route handler to create and save the new question
             this.sendAction('saveQuestion', params);
