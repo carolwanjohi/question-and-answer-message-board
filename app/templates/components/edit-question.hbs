@@ -8,17 +8,17 @@
 
             <div class="form-group">
                 <label for="authorQuestion">Enter your name or username</label>
-                {{input class="form-control" value=authorQuestion id="authorQuestion" placeholder=question.authorQuestion}}
+                {{input class="form-control" value=question.authorQuestion id="authorQuestion" placeholder=question.authorQuestion}}
             </div>
 
             <div class="form-group">
                 <label for="questionTitle">Enter the question</label>
-                {{input class="form-control" value=questionTitle id="questionTitle" placeholder=question.questionTitle}}
+                {{input class="form-control" value=question.questionTitle id="questionTitle" placeholder=question.questionTitle}}
             </div>
 
             <div class="form-group">
                 <label for="contentQuestion">Enter details about the question</label>
-                {{textarea rows="3" class="form-control" value=contentQuestion id="contentQuestion" placeholder=question.contentQuestion}}
+                {{textarea rows="3" class="form-control" value=question.contentQuestion id="contentQuestion" placeholder=question.contentQuestion}}
             </div>
 
             <button class="btn btn-info" {{action 'edit' question}}>Submit</button>
