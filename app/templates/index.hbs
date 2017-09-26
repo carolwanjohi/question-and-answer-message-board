@@ -1,14 +1,18 @@
 <p class="welcomeMessage">Welcome to <span class="help">--help<span class="underscore">_</span> </span> where you can ask a question and receive an answer</p>
 
+<hr>
+
+{{!-- Render the new question component --}}
+{{new-question saveQuestion="saveQuestion"}}
+
+<hr>
+
 <ul class="list-unstyled listOfQuestions">
     {{#each model.questions as |question|}}
         {{!-- Render the question tile component --}}
         {{question-tile question=question}}
     {{/each}}
 </ul>
-
-{{!-- Render the new question component --}}
-{{new-question saveQuestion="saveQuestion"}}
 
 
 

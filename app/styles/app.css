@@ -132,6 +132,11 @@ footer {
     background-color: #FDFEFE;     
 }
 
+.addQuestionButton {    
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
 /*Style the forms in the New Question Component, Edit Question Component and New Answer Component*/
 
 .newQuestionHeader, .editQuestionHeader, .answerQuestionHeader{
