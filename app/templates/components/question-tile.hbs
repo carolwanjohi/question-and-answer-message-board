@@ -1,14 +1,18 @@
-<div class="well listOfQuestionsTile">
+<div class="col-md-6">
 
-    {{!-- Link a question to page containing additional information --}}
-    {{#link-to 'question' question.id}}
+    <div class="well listOfQuestionsTile">
 
-        {{!-- Display Question and Author --}}
-        <li>{{question.questionTitle}} 
-            <br>
-            by {{question.authorQuestion}}
-        </li>
+        {{!-- Link a question to page containing additional information --}}
+        {{#link-to 'question' question.id}}
 
-    {{/link-to}}
+            {{!-- Display Question and Author --}}
+            <li>{{question.questionTitle}} 
+                <br>
+                by {{question.authorQuestion}}
+            </li>
+
+        {{/link-to}}
+
+    </div>
 
 </div>

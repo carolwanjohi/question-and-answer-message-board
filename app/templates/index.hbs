@@ -7,13 +7,16 @@
 
 <hr>
 
-<ul class="list-unstyled listOfQuestions">
-    {{#each model.questions as |question|}}
-        {{!-- Render the question tile component --}}
-        {{question-tile question=question}}
-    {{/each}}
-</ul>
+<div class="row">
+    
+    <ul class="list-unstyled listOfQuestions">
+        {{#each model.questions as |question|}}
+            {{!-- Render the question tile component --}}
+            {{question-tile question=question}}
+        {{/each}}
+    </ul>
 
+</div>
 
 
 
