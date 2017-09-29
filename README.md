@@ -20,11 +20,10 @@
 | Add an answer | Click **Answer Question** button | Form with answer details to be filled in |
 | Save an answer | Click **Save Answer** button | Answer and its details created |
 | View answer where the question is | N/A | Question and its answer appear on the same page |
-| Icon for questions with alot of answers| N/A | Display icon for questions with a lot of answers |
+| Icon for questions with alot of answers | N/A | Display icon for questions with a lot of answers |
 | Display the number of answers a question has| N/A | Display number of answers a question has |
-| Icon for questions with alot of answers| N/A | Display icon for questions with a lot of answers |
-| Add question to favorite list| Click **Add To Favorite Question** button | Add selected question to favorite question list |
-
+| Icon for questions with alot of answers | N/A | Display icon for questions with a lot of answers |
+| Add question to favorite list | Click **Add To Favorite Question** button | Add selected question to favorite question list |
 
 ## Ember README.md Details
 
