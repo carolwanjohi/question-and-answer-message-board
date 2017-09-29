@@ -1,7 +1,14 @@
 <div class="col-md-6">
 
     <div class="well listOfQuestionsTile">
+        {{!-- Render the most answered helper--}}
         {{most-answered question}}
+
+        {{!-- Render the answers count computed property to show how many answers a question has --}}
+        <small>
+            <p>{{answersCount}}</p>    
+        </small>
+    
 
         {{!-- Link a question to page containing additional information --}}
         {{#link-to 'question' question.id}}
