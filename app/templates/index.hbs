@@ -11,7 +11,7 @@
     
     <ul class="list-unstyled listOfQuestions">
         {{#each model.questions as |question|}}
-            {{!-- Render the question tile component --}}
+            {{!-- Render the question tile component and most answered helper--}}
             {{question-tile question=question}}
         {{/each}}
     </ul>
