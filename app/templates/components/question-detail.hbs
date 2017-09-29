@@ -1,9 +1,12 @@
+<h2 class="questionPageHeader">{{heading}} 
+    <br>
+
+    <small>
+        <p>{{answersCount}}</p>    
+    </small>
+    
+</h2>
+
+
+
 <p class="questionDetail">{{question.contentQuestion}}</p>
-
-<h2 class="answersHeader"> Answers </h2>
-
-<ul class="listOfAnswers">
-  {{#each question.answers as |answer|}}
-    {{answer-tile answer=answer}}
-  {{/each}}
-</ul>
