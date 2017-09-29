@@ -1,0 +1,25 @@
+<h2>List of Favorite Questions</h2>
+
+<div class="row">
+
+    <ul class="list-unstyled">  
+
+        {{#each questionCart.questions as |question|}}
+            <div class="col-md-6">
+
+                <div class="well">
+                    
+                    <li> 
+                        {{question.questionTitle}} 
+                        <br>
+                        by {{question.authorQuestion}}
+                    </li>
+                    
+                </div>
+
+            </div>
+        {{/each}}
+
+    </ul>
+
+</div>
