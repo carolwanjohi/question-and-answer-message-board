@@ -13,9 +13,14 @@
 
         {{/link-to}}
 
-
-        {{!-- Add to Favourite Question Cart --}}
-        <button class="btn btn-info" {{action 'addToQuestionCart' question}} >Add To Favorite Question</button>
+        {{!-- Check if the question is in the cart --}}
+        {{#if question.inCart}}
+            {{!-- Display message if question is alreadi in Wuestion Cart --}}
+            Already in Favorite Question List
+        {{else}}
+            {{!-- Add to Favourite Question Cart --}}
+            <button class="btn btn-info" {{action 'addToQuestionCart' question}} >Add To Favorite Question</button>
+        {{/if}}
 
     </div>
 
