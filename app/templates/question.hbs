@@ -3,6 +3,14 @@
 {{!-- Render the edit-question component --}}
 {{edit-question question=model edit="edit"}}
 
+<h2 class="answersHeader"> Answers </h2>
+
+<ul class="listOfAnswers">
+  {{#each model.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
+
 {{!-- Render the new answer component --}}
 {{new-answer question=model saveAnswer="saveAnswer"}}
 
