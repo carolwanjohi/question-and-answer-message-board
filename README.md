@@ -1,11 +1,12 @@
 # --help
 
-## This is a web application that enables users to post questions and give answers to posted questions, 22/09/2017
+## This is a web application that enables users to post questions and give answers to posted questions, 29/09/2017
 
 ## By **[Carol Wanjohi](https://github.com/carolwanjohi)**
 
 ## Description
 [**--help**](https://help-message-board.firebaseapp.com/) is a web application that enables users to post questions and give answers to posted questions. The user can also edit a question that they have posted. 
+The user also has the ability to add a question to favorite question list.
 
 ## How --help Works
 | Behavior        | Input           | Outcome  |
