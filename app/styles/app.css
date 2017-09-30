@@ -128,12 +128,12 @@ footer {
     margin-top: 1em;
 }
 
-.listOfQuestions {
+.listOfQuestions, .listOfFavoriteQuestions {
     font-size: 1.5em; 
     font-family: 'Cutive Mono', monospace;  
 }
 
-.listOfQuestionsTile {
+.listOfQuestionsTile, .listOfFavoriteQuestions {
     background-color: #FDFEFE; 
 }
 
@@ -147,6 +147,19 @@ footer {
 
 .addToFavoriteButton, .addedMessage {
     margin-top: 0.5em;
+}
+
+.addToFavoriteButton {
+    font-size: 0.75em; 
+}
+
+.favoriteQuestionsHeeader {
+    font-size: 2.75em;
+    font-family: 'Cutive Mono', monospace;  
+}
+
+.well.listOfFavoriteQuestions {
+    height: 8.5em;
 }
 
 /*Style the forms in the New Question Component, Edit Question Component and New Answer Component*/
