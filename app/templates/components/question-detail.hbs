@@ -1,12 +1,17 @@
-<h2 class="questionPageHeader">{{heading}} 
+<h2 class="questionPageHeader">
+
+    <div class="answerCountInQuestionDetail">
+
+        <small>
+            <p>{{answersCount}}</p>    
+        </small>
+
+    </div>
+
     <br>
 
-    <small>
-        <p>{{answersCount}}</p>    
-    </small>
-    
+    {{heading}} 
+
 </h2>
-
-
 
 <p class="questionDetail">{{question.contentQuestion}}</p>

@@ -193,6 +193,10 @@ footer {
     font-family: 'Cutive Mono', monospace;    
 }
 
+.answerCountInQuestionDetail {
+    float: right;
+}
+
 .questionDetail {
     font-size: 1.5em;
     font-family: 'Cutive Mono', monospace;
@@ -201,6 +205,11 @@ footer {
 .listOfAnswers {
     font-size: 1.40em;
     font-family: 'Cutive Mono', monospace;
+}
+
+.listOfAnswersTile {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .editQuestionButton, .answerQuestionButton {
