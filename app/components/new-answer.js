@@ -13,7 +13,7 @@ export default Ember.Component.extend({
         saveAnswer() {
             // Get the user input and store them for the current qustion
             var params = {
-                authorAnswer: this.get('authorAnswer') ? this.get('authorAnswer') : "Author Has No Name",
+                authorAnswer: this.get('authorAnswer') ? this.get('authorAnswer') : "Anonymous",
                 contentAnswer: this.get('contentAnswer') ? this.get('contentAnswer') : "No Answer Provided",
                 question: this.get('question')
             };
