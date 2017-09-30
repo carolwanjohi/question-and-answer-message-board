@@ -123,18 +123,30 @@ footer {
     font-size: 1.25em;  
 }
 
+.addQuestionButton {    
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
 .listOfQuestions {
     font-size: 1.5em; 
     font-family: 'Cutive Mono', monospace;  
 }
 
 .listOfQuestionsTile {
-    background-color: #FDFEFE;     
+    background-color: #FDFEFE; 
 }
 
-.addQuestionButton {    
-    margin-bottom: 1em;
-    margin-top: 1em;
+.well.listOfQuestionsTile {
+    height: 11.5em;
+}
+
+.answerCountDisplay {
+    float: right;
+}
+
+.addToFavoriteButton, .addedMessage {
+    margin-top: 0.5em;
 }
 
 /*Style the forms in the New Question Component, Edit Question Component and New Answer Component*/

@@ -5,7 +5,7 @@
         {{most-answered question}}
 
         {{!-- Render the answers count computed property to show how many answers a question has --}}
-        <small>
+        <small class="answerCountDisplay">
             <p>{{answersCount}}</p>    
         </small>
     
@@ -23,11 +23,13 @@
 
         {{!-- Check if the question is in the cart --}}
         {{#if question.inCart}}
-            {{!-- Display message if question is alreadi in Wuestion Cart --}}
-            Already in Favorite Question List
+            {{!-- Display message if question is alreadi in Question Cart --}}
+            <div class="addedMessage">   
+                Already in Favorite Question List
+            </div>
         {{else}}
             {{!-- Add to Favourite Question Cart --}}
-            <button class="btn btn-info" {{action 'addToQuestionCart' question}} >Add To Favorite Question</button>
+            <button class="btn btn-info addToFavoriteButton" {{action 'addToQuestionCart' question}} >Add To Favorite List</button>
         {{/if}}
 
     </div>
