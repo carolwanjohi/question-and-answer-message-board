@@ -128,6 +128,11 @@ footer {
     margin-top: 1em;
 }
 
+.listOfQuestionsHeeader, .favoriteQuestionsHeeader {
+    font-size: 2.75em;
+    font-family: 'Cutive Mono', monospace; 
+}
+
 .listOfQuestions, .listOfFavoriteQuestions {
     font-size: 1.5em; 
     font-family: 'Cutive Mono', monospace;  
@@ -157,39 +162,40 @@ footer {
     height: 8.5em;
 }
 
-/*Scrollable list of questions, favorite questions*/
-.listOfQuestionsHeeader, .favoriteQuestionsHeeader {
+/*Scrollable list of questions, favorite questions and answers*/
+.listOfQuestionsHeeader, .favoriteQuestionsHeeader{
     margin-bottom: 1.5em;
 }
 
-.listOfQuestionsRow {
+.listOfQuestionsRow, .listOfFavoriteQuestionsRow {
     height: 35em;
     margin-bottom: 10em;
 }
 
-.listOfQuestions {
+.listOfQuestions, .ulOfFavoriteQuestions {
     height: 30em;
     overflow: auto;
 }
 
 .listOfFavoriteQuestionsRow {
-    height: 35em;
-    margin-bottom: 3em;
+    margin-bottom: 0;
+    margin-bottom: 10em;
 }
 
-.ulOfFavoriteQuestions {
-    height: 30em;
+.wrapperForListOfAnswers {
+    height: 20em;
+}
+
+.listOfAnswers {
+    height: 15em;
     overflow: auto;
 }
 
-/*Style for Headers*/
-
-.newQuestionHeader, .editQuestionHeader, .answerQuestionHeader, .listOfQuestionsHeeader, .favoriteQuestionsHeeader {
+/*Style the forms in the New Question Component, Edit Question Component and New Answer Component*/
+.newQuestionHeader, .editQuestionHeader, .answerQuestionHeader {
     font-size: 2.75em;
     font-family: 'Cutive Mono', monospace; 
 }
-
-/*Style the forms in the New Question Component, Edit Question Component and New Answer Component*/
 
 .newQuestion, .editQuestion, .answerQuestion{
     font-size: 1.5em; 
@@ -212,7 +218,8 @@ footer {
 /*Style the Question Template*/
 .questionPageHeader, .answersHeader {
     font-size: 2.75em;
-    font-family: 'Cutive Mono', monospace;    
+    font-family: 'Cutive Mono', monospace; 
+    margin-bottom: 1.5em;   
 }
 
 .answerCountInQuestionDetail {

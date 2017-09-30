@@ -9,12 +9,15 @@
 
 <h2 class="answersHeader"> Answers </h2>
 
-<ul class="listOfAnswers">
-  {{#each model.answers as |answer|}}
-    {{answer-tile answer=answer}}
-  {{/each}}
-</ul>
+<div class="wrapperForListOfAnswers">
 
+    <ul class="listOfAnswers">
+      {{#each model.answers as |answer|}}
+        {{answer-tile answer=answer}}
+      {{/each}}
+    </ul>
+    
+</div>
 <hr>
 
 {{!-- Render the new answer component --}}
