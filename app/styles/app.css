@@ -99,7 +99,7 @@ p.slogan {
     }
 }
 
-/*Styel Footer*/
+/*Style Footer*/
 footer {
     background-color: #17202A;
     color: #7FFF00;
@@ -153,21 +153,43 @@ footer {
     font-size: 0.75em; 
 }
 
-.favoriteQuestionsHeeader {
-    font-size: 2.75em;
-    font-family: 'Cutive Mono', monospace;  
-}
-
 .well.listOfFavoriteQuestions {
     height: 8.5em;
 }
 
-/*Style the forms in the New Question Component, Edit Question Component and New Answer Component*/
+/*Scrollable list of questions, favorite questions*/
+.listOfQuestionsHeeader, .favoriteQuestionsHeeader {
+    margin-bottom: 1.5em;
+}
 
-.newQuestionHeader, .editQuestionHeader, .answerQuestionHeader{
+.listOfQuestionsRow {
+    height: 35em;
+    margin-bottom: 10em;
+}
+
+.listOfQuestions {
+    height: 30em;
+    overflow: auto;
+}
+
+.listOfFavoriteQuestionsRow {
+    height: 35em;
+    margin-bottom: 3em;
+}
+
+.ulOfFavoriteQuestions {
+    height: 30em;
+    overflow: auto;
+}
+
+/*Style for Headers*/
+
+.newQuestionHeader, .editQuestionHeader, .answerQuestionHeader, .listOfQuestionsHeeader, .favoriteQuestionsHeeader {
     font-size: 2.75em;
     font-family: 'Cutive Mono', monospace; 
 }
+
+/*Style the forms in the New Question Component, Edit Question Component and New Answer Component*/
 
 .newQuestion, .editQuestion, .answerQuestion{
     font-size: 1.5em; 
