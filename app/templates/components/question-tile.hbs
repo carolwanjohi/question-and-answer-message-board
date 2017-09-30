@@ -9,17 +9,21 @@
             <p>{{answersCount}}</p>    
         </small>
     
-
-        {{!-- Link a question to page containing additional information --}}
-        {{#link-to 'question' question.id}}
-
             {{!-- Display Question and Author --}}
-            <li>{{question.questionTitle}} 
-                <br>
-                by {{question.authorQuestion}}
-            </li>
+            <li>
+                
+                {{!-- Link a question to page containing additional information --}}
+                {{#link-to 'question' question.id}}
 
-        {{/link-to}}
+                    {{question.questionTitle}} 
+
+                {{/link-to}}
+
+                <br>
+
+                by {{question.authorQuestion}}
+
+            </li>
 
         {{!-- Check if the question is in the cart --}}
         {{#if question.inCart}}
